@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-for alphabet in range(ord('z'), ord('a') - 1, -1):
-    if alphabet % 2 == 0:
-        upper_f = 0
+for char in range(ord('z'), ord('a') - 1, -1):
+    if char % 2 == 0:
+        diff = 0
     else:
-        upper_f = 32
-    print((chr(alphabet - upper_f)), end='')
+        diff = 32
+    print((chr(char - diff)), end='')
