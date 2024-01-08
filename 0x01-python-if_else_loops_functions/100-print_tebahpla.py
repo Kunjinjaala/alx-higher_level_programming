@@ -5,4 +5,4 @@ for char in range(ord('z'), ord('a') - 1, -1):
         diff = 0
     else:
         diff = 32
-    print((chr(char - diff)), end='')
+    print('{}'.format(chr(char - diff)), end='')
