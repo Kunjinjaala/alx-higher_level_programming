@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 for num in range(0, 98):
-    print("{0} = {num}".format(num, hex(num)))
+    print("{0} = {1}".format(num, hex(num)))
