@@ -14,7 +14,7 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-        
+
     @property
     def width(self):
         """Width of rectangle."""
@@ -77,8 +77,10 @@ class Rectangle(Base):
 
     def __str__(self):
         """Return a string representation of the Rectangle."""
-        return "[Rectangle] ({}) {}/{} - {}/{}".format\
-                (self.id, self.x, self.y, self.width, self.height)
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
+                                                       self.x, self.y,
+                                                       self.width,
+                                                       self.height)
 
     def __update(self, id=None, width=None, height=None, x=None, y=None):
         """Updates instance attributes via */**args."""
