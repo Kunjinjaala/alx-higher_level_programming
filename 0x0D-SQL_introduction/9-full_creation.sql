@@ -1,4 +1,4 @@
-
+-- Script to create second table without error and set id as an integer variable, name as character variable, and score as int
 CREATE TABLE IF NOT EXISTS second_table (id INT, name VARCHAR(256), score INT);
 
 -- Script to create 4 records
